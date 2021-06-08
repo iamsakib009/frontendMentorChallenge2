@@ -49,10 +49,11 @@ p {
   padding: 1.1rem;
   justify-content: center;
   align-items: center;
-  padding-top: 4rem;
+  padding: 4rem;
 }
 .card {
   padding: 1.8rem;
+  width: 300px;
   min-height: 350px;
 }
 .card img {
