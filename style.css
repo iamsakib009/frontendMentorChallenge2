@@ -34,6 +34,16 @@ p {
   text-decoration: none;
   text-align: center;
 }
+.btn--color1 {
+  color: hsl(31, 77%, 52%);
+}
+.btn--color2 {
+  color: hsl(184, 100%, 22%);
+}
+.btn--color3 {
+  color: hsl(179, 100%, 13%);
+}
+
 .container {
   display: flex;
   padding: 1.1rem;
