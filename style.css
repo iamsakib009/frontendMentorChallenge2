@@ -6,7 +6,11 @@
   box-sizing: border-box;
 }
 html,
-body,
+body {
+  height: 100vh;
+  font-family: "Lexend Deca" sans-serif;
+  font-size: 1rem;
+}
 a {
   font-family: "Lexend Deca" sans-serif;
   font-size: 1rem;
@@ -43,13 +47,12 @@ p {
 .btn--color3 {
   color: hsl(179, 100%, 13%);
 }
-
 .container {
   display: flex;
-  padding: 1.1rem;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
-  padding: 4rem;
+  align-content: center;
+  margin-top: 5rem; /* horizontally center korar jonno  */
 }
 .card {
   padding: 1.8rem;
